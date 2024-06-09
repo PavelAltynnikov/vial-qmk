@@ -157,9 +157,9 @@ oled_rotation_t oled_init_user(oled_rotation_t rotation) {
 #define L_FUN 32
 #define L_MOUSE 64
 #define L_HUB 128
-#define L_Game1 128
-#define L_Game2 256
-#define L_Game3 512
+#define L_Game1 256
+#define L_Game2 512
+#define L_Game3 1024
 
 void oled_render_layer_state(void) {
     oled_write_P(PSTR("Layer: "), false);
